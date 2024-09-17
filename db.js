@@ -3,7 +3,7 @@ const { userModel } = require('./model');
 
 require('dotenv').config("../.env");
 const DB_CONNECTION = process.env.DB_CONNECTION;
-
+console.log(`userModel`);
 const init = () => {
     if (DB_CONNECTION === undefined) return;
 
